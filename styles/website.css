@@ -1,0 +1,15 @@
+h1 , h2{
+    border-bottom: 1px solid #EFEAEA;
+}
+.markdown-section code {
+    padding: .2em;
+    margin: 0;
+    font-size: .85em;
+    background-color: #F7F7EE; 
+}
+.book .book-summary .exc-trigger {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 12px;
+}

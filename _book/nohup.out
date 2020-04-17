@@ -1,0 +1,79 @@
+[0;36minfo:[0m 20 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "code"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "insert-logo"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "prism"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "chapter-fold"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "flexible-alerts"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "github"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lightbox"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "tbfed-pagefooter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "edit-link"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search-pro"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "custom-favicon"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 10 pages 
+[0;36minfo:[0m found 4 asset files 
+[0;33mwarn:[0m "options" property is deprecated, use config.get(key) instead 
+[0;33mwarn:[0m "options.generator" property is deprecated, use "output.name" instead 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 3.9s ! 
+
+Starting server ...
+Serving book on http://localhost:4000
+[0;36minfo:[0m 20 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "code"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "insert-logo"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "prism"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "chapter-fold"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "flexible-alerts"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "github"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lightbox"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "tbfed-pagefooter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "edit-link"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search-pro"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "custom-favicon"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 10 pages 
+[0;36minfo:[0m found 4 asset files 
+[0;33mwarn:[0m "options" property is deprecated, use config.get(key) instead 
+[0;33mwarn:[0m "options.generator" property is deprecated, use "output.name" instead 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 3.0s ! 
+
+Starting server ...
+Serving book on http://localhost:4000
+Restart after change in file article/Chapter1/3-Guestbook.md
+
+Stopping server
+[0;36minfo:[0m 20 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "code"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "insert-logo"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "prism"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "chapter-fold"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "flexible-alerts"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "github"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lightbox"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "tbfed-pagefooter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "edit-link"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search-pro"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "custom-favicon"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 10 pages 
+[0;36minfo:[0m found 5 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 2.5s ! 
+
+Starting server ...
+Serving book on http://localhost:4000
