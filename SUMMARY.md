@@ -120,6 +120,10 @@
   * 二、集群搭建
     * [2.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
     * [2.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
+  * 三、Ingress
+    * [3.1 Ingress介绍](article/Kubernetes/Chapter3/1-ingress.md)
+    * [3.2 Ingress 代理HTTP](article/Kubernetes/Chapter3/2-ingress-http.md)
+    * [3.3 Ingress 代理HTTPS](article/Kubernetes/Chapter3/3-ingress-https.md)
 * Shell
   * [1、什么是Shell](article/Shell/Chapter1/1-1-shell.md)
   * 2、Shell 变量

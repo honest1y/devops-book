@@ -1833,6 +1833,64 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    三、Ingress
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../Kubernetes/Chapter3/1-ingress.html">
+            
+                <a href="../../Kubernetes/Chapter3/1-ingress.html">
+            
+                    
+                    3.1 Ingress介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../Kubernetes/Chapter3/2-ingress-http.html">
+            
+                <a href="../../Kubernetes/Chapter3/2-ingress-http.html">
+            
+                    
+                    3.2 Ingress 代理HTTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../Kubernetes/Chapter3/3-ingress-https.html">
+            
+                <a href="../../Kubernetes/Chapter3/3-ingress-https.html">
+            
+                    
+                    3.3 Ingress 代理HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
             </ul>
             
@@ -2009,20 +2067,20 @@
 <p>&#x73B0;&#x5728;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;Kubernetes&#x96C6;&#x7FA4;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x9009;&#x9879;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x4E91;&#x4E3B;&#x673A;&#x3001;&#x5185;&#x90E8;&#x865A;&#x62DF;&#x673A;&#x6216;&#x7269;&#x7406;&#x4E3B;&#x673A;&#x4F5C;&#x4E3A;&#x96C6;&#x7FA4;&#x8282;&#x70B9;&#xFF0C;&#x8282;&#x70B9;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x4EFB;&#x4F55;&#x4E00;&#x79CD;&#x6216;&#x591A;&#x79CD;&#x4E3B;&#x6D41;Linux&#x53D1;&#x884C;&#x7248;:</p>
 <p>1&#x3001;&#x5728;&#x5168;&#x5C40;&#x89C6;&#x56FE;&#x4E0B;&#xFF0C;&#x70B9;&#x51FB;&#x83DC;&#x5355;&#x4E2D;&#x7684;&#x96C6;&#x7FA4; , &#x5E76;&#x70B9;&#x51FB;&#x6DFB;&#x52A0;&#x96C6;&#x7FA4;&#xFF1B;</p>
 <p>2&#x3001;&#x9009;&#x62E9;<strong>&#x81EA;&#x5B9A;&#x4E49;</strong>&#xFF0C;&#x5E76;&#x8BBE;&#x7F6E;&#x96C6;&#x7FA4;&#x540D;&#x79F0;,&#x5176;&#x4ED6;&#x53C2;&#x6570;&#x53EF;&#x4E0D;&#x7528;&#x4FEE;&#x6539;&#xFF0C;&#x70B9;&#x51FB;&#x4E0B;&#x4E00;&#x6B65;&#xFF1B;</p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200401.png" data-lightbox="dba5b7f5-2d41-4dc7-8273-2efbfc05446e" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200401.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200401.png" data-lightbox="68eed8bb-9868-4696-a255-7e210774e282" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200401.png" alt=""></a></p>
 <p>3&#x3001;&#x9009;&#x62E9;&#x8282;&#x70B9;&#x8FD0;&#x884C;&#x7684;&#x89D2;&#x8272;
 &#x9ED8;&#x8BA4;&#x4F1A;&#x52FE;&#x9009;<code>Worker</code>&#x89D2;&#x8272;&#xFF0C;&#x6839;&#x636E;&#x9700;&#x8981;&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x52FE;&#x9009;&#x591A;&#x79CD;&#x89D2;&#x8272;&#x3002;&#x6BD4;&#x5982;&#xFF0C;&#x5047;&#x8BBE;&#x6211;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x90A3;&#x5C31;&#x9700;&#x8981;&#x628A;&#x6240;&#x6709;&#x89D2;&#x8272;&#x90FD;&#x9009;&#x62E9;&#x4E0A;&#xFF0C;&#x9009;&#x62E9;&#x540E;&#x4E0A;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x884C;&#x4F1A;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x76F8;&#x5E94;&#x7684;&#x547D;&#x4EE4;&#x53C2;&#x6570;</p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200403.png" data-lightbox="adffb26a-5534-4fcd-a6eb-090c59a97cab" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200403.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200403.png" data-lightbox="146ba6aa-4199-45ea-b2ca-b87452514c8e" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200403.png" alt=""></a></p>
 <p>4&#x3001;&#x5176;&#x4ED6;&#x53C2;&#x6570;&#x4FDD;&#x6301;&#x9ED8;&#x8BA4;&#xFF0C;&#x70B9;&#x51FB;&#x547D;&#x4EE4;&#x884C;&#x53F3;&#x4FA7;&#x7684;&#x590D;&#x5236;&#x6309;&#x94AE;&#xFF0C;&#x590D;&#x5236;&#x547D;&#x4EE4;&#x53C2;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x591A;&#x53F0;&#x4E3B;&#x673A;&#xFF0C;&#x6839;&#x636E;&#x89D2;&#x8272;&#x7684;&#x4E0D;&#x540C;&#xFF0C;&#x9700;&#x8981;&#x590D;&#x5236;&#x591A;&#x6B21;&#x3002;</p>
 <p>5&#x3001;&#x767B;&#x5F55;&#x9884;&#x6DFB;&#x52A0;&#x96C6;&#x7FA4;&#x7684;&#x4E3B;&#x673A;&#xFF0C;&#x6267;&#x884C;&#x4EE5;&#x4E0A;&#x590D;&#x5236;&#x7684;&#x547D;&#x4EE4;&#xFF1B;</p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200406.png" data-lightbox="8237e3c0-42a5-47ed-b6de-b231f59b34f2" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200406.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200406.png" data-lightbox="ad5d578f-72a9-4b5a-b84e-4307de9edb81" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200406.png" alt=""></a></p>
 <p>6&#x3001;&#x5728;&#x4E3B;&#x673A;&#x4E0A;&#x6267;&#x884C;&#x5B8C;&#x547D;&#x4EE4;&#x540E;&#xFF0C;&#x6700;&#x540E;&#x70B9;&#x51FB;&#x5B8C;&#x6210;&#xFF1B;</p>
 <p>7&#x3001;&#x56DE;&#x5230;&#x5168;&#x5C40;&#x89C6;&#x56FE;&#xFF0C;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x96C6;&#x7FA4;&#x7684;&#x90E8;&#x7F72;&#x72B6;&#x6001;&#xFF1B;</p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200407.png" data-lightbox="4b50d8c7-66e0-43b3-b1b5-d01ab10195eb" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200407.png" alt=""></a></p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200408.png" data-lightbox="63012943-e5e2-4e23-a175-09280122f96f" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200408.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200407.png" data-lightbox="6818df34-7804-4061-9fc3-048a856d8099" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200407.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200408.png" data-lightbox="ce6f22b8-3044-43c2-b193-b9744335ec23" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200408.png" alt=""></a></p>
 <p>8&#x3001;&#x96C6;&#x7FA4;&#x521B;&#x5EFA;&#x5B8C;&#x6210;</p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200409.png" data-lightbox="cad1c7e5-2809-41cc-a34f-cbf1f9a2b93c" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200409.png" alt=""></a></p>
-<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200410.png" data-lightbox="5c8d8c5a-9772-479d-b3b6-6c452c88b8d0" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200410.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200409.png" data-lightbox="50aba130-1c59-4429-8d55-8a0c9a0657c9" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200409.png" alt=""></a></p>
+<p><a href="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200410.png" data-lightbox="7ed9d407-6097-4191-bc59-cb67090716b3" data-title="" target="_blank"><img src="https://cdn.cloudcared.cn/wp-content/uploads/2020/04/WX20200410.png" alt=""></a></p>
 <footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x6700;&#x540E;&#x4FEE;&#x6539;&#x65F6;&#x95F4;&#xFF1A;
 2020-04-01 15:59:42
 </span></footer>
@@ -2068,7 +2126,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"4.5 创建K8S集群","level":"1.3.4.5","depth":3,"next":{"title":"4.6 部署工作负载","level":"1.3.4.6","depth":3,"path":"article/Rancher/Chapter4/4-6-deploy.md","ref":"article/Rancher/Chapter4/4-6-deploy.md","articles":[]},"previous":{"title":"4.4 登陆Rancher","level":"1.3.4.4","depth":3,"path":"article/Rancher/Chapter4/4-4-login.md","ref":"article/Rancher/Chapter4/4-4-login.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","code","insert-logo","prism","-highlight","-search","chapter-fold","expandable-chapters","flexible-alerts","github","lightbox","tbfed-pagefooter","edit-link","search-pro","custom-favicon","back-to-top-button","splitter"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"该文件最后修改时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-duotone-light.css"]},"github":{"url":"https://github.com/honest1y"},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"isShowTocTitleIcon":true},"favicon":"icon/favicon.png","lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"custom-favicon":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"编辑此页面","base":"//github.com/honest1y/book/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px; min-height: 30px","url":"https://cdn.cloudcared.cn/wp-content/uploads/2020/03/document-logo.png"},"expandable-chapters":{}},"theme":"default","author":"Honest1y","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Cloudcared","language":"zh-hans","links":{"sidebar":{"博客":"https://www.cloudcared.cn"}},"gitbook":"*","description":"Kubernetes Guide"},"file":{"path":"article/Rancher/Chapter4/4-5-createk8s.md","mtime":"2020-04-01T07:59:42.176Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-02T06:31:52.896Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"4.5 创建K8S集群","level":"1.3.4.5","depth":3,"next":{"title":"4.6 部署工作负载","level":"1.3.4.6","depth":3,"path":"article/Rancher/Chapter4/4-6-deploy.md","ref":"article/Rancher/Chapter4/4-6-deploy.md","articles":[]},"previous":{"title":"4.4 登陆Rancher","level":"1.3.4.4","depth":3,"path":"article/Rancher/Chapter4/4-4-login.md","ref":"article/Rancher/Chapter4/4-4-login.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","code","insert-logo","prism","-highlight","-search","chapter-fold","expandable-chapters","flexible-alerts","github","lightbox","tbfed-pagefooter","edit-link","search-pro","custom-favicon","back-to-top-button","splitter"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"该文件最后修改时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-duotone-light.css"]},"github":{"url":"https://github.com/honest1y"},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"isShowTocTitleIcon":true},"favicon":"icon/favicon.png","lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"custom-favicon":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"编辑此页面","base":"//github.com/honest1y/book/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px; min-height: 30px","url":"https://cdn.cloudcared.cn/wp-content/uploads/2020/03/document-logo.png"},"expandable-chapters":{}},"theme":"default","author":"Honest1y","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Cloudcared","language":"zh-hans","links":{"sidebar":{"博客":"https://www.cloudcared.cn"}},"gitbook":"*","description":"Kubernetes Guide"},"file":{"path":"article/Rancher/Chapter4/4-5-createk8s.md","mtime":"2020-04-01T07:59:42.176Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T09:38:44.904Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
