@@ -117,7 +117,7 @@
       * [1.3.2 创建redis-slave Pod和服务](article/Kubernetes/Chapter1/3-2-redis-slave.md)
       * [1.3.3 创建frontend Pod和服务](article/Kubernetes/Chapter1/3-3-frontend.md)
       * [1.3.4 通过浏览器访问网页](article/Kubernetes/Chapter1/3-4-test.md)
-  * 二、[组件介绍](article/Kubernetes/Chapter1/1-4-assembly.md)
+  * [二、组件介绍](article/Kubernetes/Chapter1/1-4-assembly.md)
   * 三、集群搭建
     * [3.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
     * [3.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
