@@ -122,7 +122,15 @@
     * [3.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
     * [3.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
     * [3.3 安装DashBoard插件](article/Kubernetes/Chapter2/3-Dashboard.md)
-  * 三、Ingress
+  * 四、命名空间及配额限制
+    * [4.1 NameSpace](article/Kubernetes/Chapter4/1-NameSpace.md)
+    * [4.2 为NameSpace配置Pod配额](article/Kubernetes/Chapter4/2-NameSpace-Pod.md)
+    * [4.3 为NameSpace配置CPU请求与配额](article/Kubernetes/Chapter4/3-NameSpace-CPU.md)
+    * [4.4 为NameSpace配置内存请求与配额](article/Kubernetes/Chapter4/4-NameSpace-MEM.md)
+    * [4.5 为NameSpace设置最小和最大内存限制](article/Kubernetes/Chapter4/5-NameSpace-MemLimit.md)
+    * [4.6 为NameSpace配置CPU和内存配额](article/Kubernetes/Chapter4/6-NameSpace-CPU-MEM.md)
+    * [4.7 为NameSpace配置最小和最大 CPU 限制](article/Kubernetes/Chapter4/7-NameSpace-CPU-MEM-Limit.md)
+  * 待分配
     * [3.1 Ingress介绍](article/Kubernetes/Chapter3/1-ingress.md)
     * [3.2 Ingress 代理HTTP](article/Kubernetes/Chapter3/2-ingress-http.md)
     * [3.3 Ingress 代理HTTPS](article/Kubernetes/Chapter3/3-ingress-https.md)
