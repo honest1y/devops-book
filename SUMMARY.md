@@ -117,10 +117,11 @@
       * [1.3.2 创建redis-slave Pod和服务](article/Kubernetes/Chapter1/3-2-redis-slave.md)
       * [1.3.3 创建frontend Pod和服务](article/Kubernetes/Chapter1/3-3-frontend.md)
       * [1.3.4 通过浏览器访问网页](article/Kubernetes/Chapter1/3-4-test.md)
-  * 二、集群搭建
-    * [2.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
-    * [2.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
-    * [2.3 安装DashBoard插件](article/Kubernetes/Chapter2/3-Dashboard.md)
+  * 二、[组件介绍](article/Kubernetes/Chapter1/1-4-assembly.md)
+  * 三、集群搭建
+    * [3.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
+    * [3.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
+    * [3.3 安装DashBoard插件](article/Kubernetes/Chapter2/3-Dashboard.md)
   * 三、Ingress
     * [3.1 Ingress介绍](article/Kubernetes/Chapter3/1-ingress.md)
     * [3.2 Ingress 代理HTTP](article/Kubernetes/Chapter3/2-ingress-http.md)
