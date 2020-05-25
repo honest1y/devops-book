@@ -1,6 +1,32 @@
 # 目录
 
 * [序言](README.md)
+* Kubernetes
+  * 一、入门
+    * [1.1 什么是Kubernetes?](article/Kubernetes/Chapter1/1-Introduction.md)
+    * [1.2 为什么要用Kubernetes](article/Kubernetes/Chapter1/2-Whykubernetes.md)
+    * [1.3 GuestBook举例](article/Kubernetes/Chapter1/3-Guestbook.md)
+      * [1.3.1 创建redis-master Pod和服务](article/Kubernetes/Chapter1/3-1-redis-master.md)
+      * [1.3.2 创建redis-slave Pod和服务](article/Kubernetes/Chapter1/3-2-redis-slave.md)
+      * [1.3.3 创建frontend Pod和服务](article/Kubernetes/Chapter1/3-3-frontend.md)
+      * [1.3.4 通过浏览器访问网页](article/Kubernetes/Chapter1/3-4-test.md)
+  * [二、组件介绍](article/Kubernetes/Chapter1/1-4-assembly.md)
+  * 三、集群搭建
+    * [3.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
+    * [3.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
+    * [3.3 安装DashBoard插件](article/Kubernetes/Chapter2/3-Dashboard.md)
+  * 四、命名空间及配额限制
+    * [4.1 NameSpace](article/Kubernetes/Chapter4/1-NameSpace.md)
+    * [4.2 配置Pod配额](article/Kubernetes/Chapter4/2-NameSpace-Pod.md)
+    * [4.3 配置CPU请求与配额](article/Kubernetes/Chapter4/3-NameSpace-CPU.md)
+    * [4.4 配置内存请求与配额](article/Kubernetes/Chapter4/4-NameSpace-MEM.md)
+    * [4.5 设置最小和最大内存限制](article/Kubernetes/Chapter4/5-NameSpace-MemLimit.md)
+    * [4.6 配置CPU和内存配额](article/Kubernetes/Chapter4/6-NameSpace-CPU-MEM.md)
+    * [4.7 配置最小和最大 CPU 限制](article/Kubernetes/Chapter4/7-NameSpace-CPU-MEM-Limit.md)
+  * 待分配
+    * [3.1 Ingress介绍](article/Kubernetes/Chapter3/1-ingress.md)
+    * [3.2 Ingress 代理HTTP](article/Kubernetes/Chapter3/2-ingress-http.md)
+    * [3.3 Ingress 代理HTTPS](article/Kubernetes/Chapter3/3-ingress-https.md)
 * Docker
   * [1、Docker介绍](article/Docker/docker.md) 
   * 2、基本概念
@@ -108,32 +134,6 @@
     * [5.1 基于 Rancher 运行 Django 程序](article/Rancher/Chapter5/5-1-django.md)
     * [5.2 基于 Rancher 运行 VUE 程序](article/Rancher/Chapter5/5-2-vue.md)
   * [6、参考文档](article/Rancher/document.md)
-* Kubernetes
-  * 一、入门
-    * [1.1 什么是Kubernetes?](article/Kubernetes/Chapter1/1-Introduction.md)
-    * [1.2 为什么要用Kubernetes](article/Kubernetes/Chapter1/2-Whykubernetes.md)
-    * [1.3 GuestBook举例](article/Kubernetes/Chapter1/3-Guestbook.md)
-      * [1.3.1 创建redis-master Pod和服务](article/Kubernetes/Chapter1/3-1-redis-master.md)
-      * [1.3.2 创建redis-slave Pod和服务](article/Kubernetes/Chapter1/3-2-redis-slave.md)
-      * [1.3.3 创建frontend Pod和服务](article/Kubernetes/Chapter1/3-3-frontend.md)
-      * [1.3.4 通过浏览器访问网页](article/Kubernetes/Chapter1/3-4-test.md)
-  * [二、组件介绍](article/Kubernetes/Chapter1/1-4-assembly.md)
-  * 三、集群搭建
-    * [3.1 环境准备](article/Kubernetes/Chapter2/1-Prepare.md)
-    * [3.2 集群配置](article/Kubernetes/Chapter2/2-Install.md)
-    * [3.3 安装DashBoard插件](article/Kubernetes/Chapter2/3-Dashboard.md)
-  * 四、命名空间及配额限制
-    * [4.1 NameSpace](article/Kubernetes/Chapter4/1-NameSpace.md)
-    * [4.2 配置Pod配额](article/Kubernetes/Chapter4/2-NameSpace-Pod.md)
-    * [4.3 配置CPU请求与配额](article/Kubernetes/Chapter4/3-NameSpace-CPU.md)
-    * [4.4 配置内存请求与配额](article/Kubernetes/Chapter4/4-NameSpace-MEM.md)
-    * [4.5 设置最小和最大内存限制](article/Kubernetes/Chapter4/5-NameSpace-MemLimit.md)
-    * [4.6 配置CPU和内存配额](article/Kubernetes/Chapter4/6-NameSpace-CPU-MEM.md)
-    * [4.7 配置最小和最大 CPU 限制](article/Kubernetes/Chapter4/7-NameSpace-CPU-MEM-Limit.md)
-  * 待分配
-    * [3.1 Ingress介绍](article/Kubernetes/Chapter3/1-ingress.md)
-    * [3.2 Ingress 代理HTTP](article/Kubernetes/Chapter3/2-ingress-http.md)
-    * [3.3 Ingress 代理HTTPS](article/Kubernetes/Chapter3/3-ingress-https.md)
 * Shell
   * [1、什么是Shell](article/Shell/Chapter1/1-1-shell.md)
   * 2、Shell 变量
