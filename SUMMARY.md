@@ -2,7 +2,8 @@
 
 * [序言](README.md)
 * 云原生
-  * [1、etcd](article/DevOps/etcd.md)
+  * [1、Etcd](article/DevOps/etcd.md)
+  * [2、Harbor](article/DevOps/harbor.md)
 * Kubernetes
   * 一、入门
     * [1.1 什么是Kubernetes?](article/Kubernetes/Chapter1/1-Introduction.md)
